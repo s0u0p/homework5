@@ -1,5 +1,5 @@
 # Getting Started 
-You will need a few things installed in order to attempt this homework:
+You will need a few things installed in order to attempt this option for the homework:
 1. Git: https://git-scm.com/downloads 
 2. Node: https://nodejs.org/en/download/package-manager
 3. A code editor of your choice. I recommend VSCode: https://code.visualstudio.com/download
