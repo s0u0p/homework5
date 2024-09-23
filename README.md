@@ -5,20 +5,20 @@ You will need a few things installed in order to attempt this homework:
 3. A code editor of your choice. I recommend VSCode: https://code.visualstudio.com/download
 
 # Cloning the Repo
-After you have Git installed you will be able to run the following commands to clone this reposiotry onto your machine:
+After you have Git installed you will be able to run the following command to clone this reposiotry onto your machine:
 ```bash
 git clone https://github.com/pzalep1/homework5.git
 ```
 
 # Installing Dependencies
-Next you must install the necessary packages using Nodes package manager npm:
+Next you must install the necessary packages using the Node package manager (npm). You can run the following command in the root of the application:
 ```bash 
 npm install
 ```
 # Viewing the Code and Starting the Server
 Once it is on your machine and you have all of the packages you can open it in the text editor of your choice to view the code. 
 
-To start the live development server run the following command:
+To start the live development server run the following command in the root of the project:
 
 ```bash
 npm run start
