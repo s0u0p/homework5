@@ -7,6 +7,7 @@ const port = 3300;
 app.use(bodyParser.urlencoded({ extended: true }));
 
 let comments = [];
+const = MAX_COMMENTS = 500;
 
 app.get('/', (req, res) => {
     const commentsHtml = comments.map(comment => `<p>${comment}</p>`).join('');
@@ -24,6 +25,9 @@ app.get('/', (req, res) => {
 app.post('/submit', (req, res) => {
     const comment = req.body.comment;
     comments.push(comment);
+    if (comments.length > MAX_COMMENTS){
+        comments.shift();
+    }
     res.redirect('/');
 });
 
